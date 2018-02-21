@@ -66,6 +66,8 @@ function reset() {
     $("#number-to-guess").empty();
     $("#score").empty();
     $("#crystals").empty();
+    Game.numberOptions = [];
+    Game.scoreCounter = 0;
     initializeGame();
     getNumOptions();
     assignCrystalValues();
