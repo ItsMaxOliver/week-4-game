@@ -21,8 +21,8 @@ function initializeGame () {
 
 function getNumOptions () {
     for(let i = 0; i < 4; i++) {
-        var crystalNum = Math.floor(Math.random() * ((15-1) + 1) + 1);
-        //chooses a random number between 1-15 for crystal values
+        var crystalNum = Math.floor(Math.random() * ((12-1) + 1) + 1);
+        //chooses a random number between 1-12 for crystal values
         Game.numberOptions.push(crystalNum);
     }
 };

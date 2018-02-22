@@ -1,3 +1,37 @@
+body {
+    background-image: url("../images/dust_scratches.png");
+}
+
 .crystal-image {
     width: 25%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.col-6, .col-9, col-4, col-8 {
+    margin: auto;
+}
+
+.col-9 {
+    border: solid;
+    
+}
+.row {
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.top {
+    margin-top: 15px;
+}
+
+h3 {
+    padding-left: 15px;
+}
+
+h4 {
+    padding-left: 15px;
 }
